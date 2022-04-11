@@ -4,7 +4,7 @@ import logo from "../images/logo.png"
 export default function Nav(){
     return(
         <nav className="navbar">
-            <img className="navbar--img" src={logo}/>
+            <img className="navbar--img" alt="" src={logo}/>
             <h3 className="navbar--h3">My travel journal</h3>
         </nav>
     )
