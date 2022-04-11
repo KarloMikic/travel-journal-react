@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+.line{
+    border: 1px solid #F5F5F5;
+    width: 80%;
+}
+body{
+    margin: 0;
+}
+.grey-link{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.navbar{
+    max-height: 55px;
+    width: 100%;
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.navbar--img{
+    height: 24px;
+    width: 24px;
+    
+}
+
+.navbar--h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+.main{
+    display: flex;
+    max-width: 500px;
+    min-width: 500px;
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    gap: 30px;
+    margin: 20px;
+    align-content: space-between
+}
+.main--img{
+    width: 140px;
+    height: 190px; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.main--map-icon{
+    height: 15px;
+    margin-right:5px
+}
+.main--location{
+    font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+letter-spacing: 0.17em;
+margin-right: 12px;
+}
+.main--title{
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+}
+.main--date{
+    margin-top: -8px;
+ font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+}
+.main--desc{
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* or 15px */
+
+
+color: #2B283A;
+}
